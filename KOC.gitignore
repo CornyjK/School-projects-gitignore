@@ -1,9 +1,18 @@
 ## Gitignore file for school projects - subject KOC
-#Mathcad crap
+#Mathcad junk empty file
 tahoe.log
 
-#Solidworks backup files
+#SolidWorks backup files
 ~$*
+
+#Solidworks and Radeon ProRender exports
+/*.avi
+/*.bmp
+/*.jpg
+/*.pdf
+/*.png
+/*.tga
+/*.tiff
 
 #OS junk files
 [Tt]humbs.db
