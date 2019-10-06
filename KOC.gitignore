@@ -1,11 +1,7 @@
-## Gitignore file for school projects - subject KOC
-#AMD RADEON PRORENDER empty file
-tahoe.log
+# gitignore for school projects - general
 
-#SolidWorks backup files
-~$*
 
-#Solidworks and Radeon ProRender exports
+# Solidworks and Radeon ProRender exports
 /*.avi
 /*.bmp
 /*.jpg
@@ -14,7 +10,19 @@ tahoe.log
 /*.tga
 /*.tiff
 
-#OS junk files
+# Task files
+!Task/*
+
+# AMD Radeon ProRender empty file
+tahoe.log
+
+# SolidWorks lock files
+~$*.SLD*
+
+# LibreOffice lock files
+.~lock.*#
+
+# OS junk files
 [Tt]humbs.db
 *.DS_Store
 desktop.ini
